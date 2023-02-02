@@ -10,3 +10,6 @@ metadata:
   name: sushrutawsmanager-sample
 spec:
   # TODO(user): Add fields here
+  image: "quay.io/talat_shaheen0/aws-vmstate:latest"
+  imagePullPolicy: Always
+  restartPolicy: OnFailure
